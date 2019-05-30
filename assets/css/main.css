@@ -3101,6 +3101,8 @@ input, select, textarea {
 					display: block;
 					margin: 0 auto;
 					max-width: 75%;
+					border-radius: 50%;
+					height: 125px;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3823,4 +3825,20 @@ input, select, textarea {
 			display: block;
 			margin: 0;
 			width: 180px;
+		}
+
+		#rotateimg90 {
+			-webkit-transform:rotate(90deg);
+			-moz-transform: rotate(90deg);
+			-ms-transform: rotate(90deg);
+			-o-transform: rotate(90deg);
+			transform: rotate(90deg);
+		}
+
+		body {
+			background-image: url('../../images/ggb.jpg');
+			background-attachment: fixed;
+			height: 100%;
+			width: 100%;
+			background-size: cover;
 		}
