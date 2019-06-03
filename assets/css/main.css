@@ -1311,6 +1311,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+			.form-container {
+				flex-direction: column;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2666,6 +2670,7 @@ input, select, textarea {
 			}
 
 			header.major p {
+				margin: auto;
 				font-size: 1em;
 				letter-spacing: 0;
 			}
