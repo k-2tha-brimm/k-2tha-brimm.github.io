@@ -3840,6 +3840,10 @@ input, select, textarea {
 			transform: rotate(90deg);
 		}
 
+		.logo > img {
+			height: 200px!important;
+		}
+
 		body {
 			background-image: url('../../images/ggb.jpg');
 			background-attachment: fixed;
